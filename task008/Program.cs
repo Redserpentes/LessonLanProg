@@ -8,7 +8,7 @@
 Console.Clear();
 
 Console.WriteLine("Введите любое число");
-int n = Convert.ToInt32( Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
 
 int i = 1;
 
