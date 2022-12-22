@@ -7,8 +7,26 @@
 
 Console.Clear();
 
-a = 5;
-b = 8;
+Console.WriteLine("Введите любое число");
+int n = Convert.ToInt32( Console.ReadLine());
+
+int i = 1;
+
+Console.Write("Четные числа до ");
+Console.Write(n);
+Console.WriteLine();
+Console.WriteLine();
+
+while (i < n)
+{
+    if (i % 2 == 0)
+    {
+        Console.Write($"{i}, ");
+    }
+    i++;
+}
+
+
 
 
 
