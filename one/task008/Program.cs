@@ -15,7 +15,6 @@ int i = 1;
 Console.Write("Четные числа до ");
 Console.Write(n);
 Console.WriteLine();
-Console.WriteLine();
 
 while (i < n)
 {
